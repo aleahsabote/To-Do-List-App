@@ -1,0 +1,89 @@
+html{
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+    height: 100%;
+    background-image: linear-gradient(#b6586a,#110e0f);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: #0f222d;
+    background-size: auto;
+    font-family: 'Euphoria Script', cursive;
+  }
+  
+  .main{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  h1{
+    text-align: center;
+    color: rgb(231, 225, 227);
+  }
+  form{
+    background-color: rgb(253, 5, 129);
+    padding: 15px;
+    border-radius: 30px;
+  }
+  input[type="text"]{
+    width: 310px;
+    height: 30px;
+    outline: 0;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+    background: rgb(0, 0, 0);
+  }
+  button{
+    font-size: 1em;
+    color: #0c0c0c;
+    background-color: #fff;
+    outline: 0;
+    border: 50px;
+    width: 50px;
+    border-radius: 30px;
+  
+  }
+  .tasksBoard{
+    background-color: rgb(10, 9, 10);
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    /*display: none;*/
+  
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    border-bottom: 1px solid #fa046a;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    color: #eb0d3d;
+  }
+  a{
+    float: right;
+    text-align: right;
+    color: #fff7f7;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  .delete{
+    background-color: #ff6161;
+    padding: 0px 2px 0px 2px;
+    color: rgb(3, 3, 3);
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 500px) {
+    .main{
+      margin: auto;
+      width: 100%;
+    }
+    input[type="text"]{
+      width: 80%;
+    }
